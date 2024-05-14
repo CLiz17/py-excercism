@@ -1,56 +1,73 @@
-from module import function
+# from module import function
 
-import module
+# import module
 
-def func(var1, var2):
-    """
-    Docstring after function def as description
-    :var1: - variable 1
-    :var2: - variable 2
-    """
-    #calculations
+# def func(var1, var2):
+#     """
+#     Docstring after function def as description
+#     :var1: - variable 1
+#     :var2: - variable 2
+#     """
+#     #calculations
 
-    return var
+#     return var
 
-variable_in_snake_case
+# variable_in_snake_case
 
-CONST_IN_SCREAMING_SNAKE_CASE = 50
+# CONST_IN_SCREAMING_SNAKE_CASE = 50
 
-"""
-and, or, not
+# """
+# and, or, not
 
-int(), float()
-+,-,*
-/ divide exactly
-// qoutient
-% reminder
-"""
+# int(), float()
+# +,-,*
+# / divide exactly
+# // qoutient
+# % reminder
+# """
 
-if a > b:
-    return a
-elif b > a:
-    return b
-else:
-    return None
+# if a > b:
+#     return a
+# elif b > a:
+#     return b
+# else:
+#     return None
 
-# List
-fruits = ["apple","Banana"]
+# # List
+# fruits = ["apple","Banana"]
 
-# Tuple
-fruits = ('apple', 'banana')
+# # Tuple
+# fruits = ('apple', 'banana')
 
-# Set
-fruits = {'apple', 'banana'}
+# # Set
+# fruits = {'apple', 'banana'}
 
-# Dictionary
-names = {1:"cat", 2:'dog'}
+# # Dictionary
+# names = {1:"cat", 2:'dog'}
 
-1 in names
+# 1 in names
+# #True
+
+# 1 not in names
+# #False
+
+# True == 1 in names
+# True is 1 in names
+# False is not 1 in names
+
+sentence = "there was a cat"
+
+sentence.title()
+#There was a cat
+
+sentence.endswith("cat")
 #True
 
-1 not in names
-#False
+sentence.strip()
+#removes spaces
 
-True == 1 in names
-True is 1 in names
-False is not 1 in names
+print(sentence.strip("cat"))
+#here was a
+
+sentence.replace("cat", "dog")
+#there was a dog
