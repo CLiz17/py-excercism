@@ -1,73 +1,28 @@
-# from module import function
+# List
+fruits = ["apple","Banana"]
 
-# import module
+# Tuple
+fruits = ('apple', 'banana')
 
-# def func(var1, var2):
-#     """
-#     Docstring after function def as description
-#     :var1: - variable 1
-#     :var2: - variable 2
-#     """
-#     #calculations
+# Set
+fruits = {'apple', 'banana'}
 
-#     return var
+# Dictionary
+names = {1:"cat", 2:'dog'}
 
-# variable_in_snake_case
-
-# CONST_IN_SCREAMING_SNAKE_CASE = 50
-
-# """
-# and, or, not
-
-# int(), float()
-# +,-,*
-# / divide exactly
-# // qoutient
-# % reminder
-# """
-
-# if a > b:
-#     return a
-# elif b > a:
-#     return b
-# else:
-#     return None
-
-# # List
-# fruits = ["apple","Banana"]
-
-# # Tuple
-# fruits = ('apple', 'banana')
-
-# # Set
-# fruits = {'apple', 'banana'}
-
-# # Dictionary
-# names = {1:"cat", 2:'dog'}
-
-# 1 in names
-# #True
-
-# 1 not in names
-# #False
-
-# True == 1 in names
-# True is 1 in names
-# False is not 1 in names
-
+########
+# String Manipulations
 sentence = "there was a cat"
 
-sentence.title()
-#There was a cat
+sentence.title() #There was a cat
 
-sentence.endswith("cat")
-#True
+sentence.endswith("cat") #True
 
-sentence.strip()
-#removes spaces
+sentence.strip() #removes spaces
 
-print(sentence.strip("cat"))
-#here was a
+print(sentence.strip("cat")) #here was a
 
-sentence.replace("cat", "dog")
-#there was a dog
+sentence = "there was a cat."
+sentence.rstrip('.') # sentence = "there was a cat"
+
+sentence.replace("cat", "dog") #there was a dog
