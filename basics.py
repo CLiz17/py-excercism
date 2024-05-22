@@ -1,13 +1,11 @@
-# List
+# List - mutable, any datatype
 fruits = ["apple","Banana"]
+fruits.append("grapes") #add item to list
 
-# Tuple
+# Tuple - immutable, any datatype
 fruits = ('apple', 'banana')
 
-# Set
-fruits = {'apple', 'banana'}
-
-# Dictionary
+# Dictionary - key:value
 names = {1:"cat", 2:'dog'}
 
 ########
@@ -26,3 +24,9 @@ sentence = "there was a cat."
 sentence.rstrip('.') # sentence = "there was a cat"
 
 sentence.replace("cat", "dog") #there was a dog
+
+word = apple
+sorted(word) #aelpp
+
+raise ValueError()
+raise IndexError()
