@@ -16,8 +16,9 @@ sentence.title() #There was a cat
 
 sentence.endswith("cat") #True
 
-sentence.strip() #removes spaces
+sentence.strip() #remove space
 
+#remove char at beginning and end only 
 print(sentence.strip("cat")) #here was a
 
 sentence = "there was a cat."
