@@ -7,6 +7,10 @@ fruits = ('apple', 'banana')
 
 # Dictionary - key:value
 names = {1:"cat", 2:'dog'}
+names.keys()
+names.values()
+names.get("cat")
+list(name.keys())
 
 
 # String Manipulations
