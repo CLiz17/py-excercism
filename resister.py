@@ -1,29 +1,27 @@
 def value(colors):
-    for color in colors:
+    rvalue = [] 
+    for color in colors[0:2]: 
         color = color.lower()
-        resister_value = []
         if color == "black":
-            resister_value.append("0")
+            rvalue.append("0")
         elif color == "brown":
-            resister_value.append("1")
+            rvalue.append("1")
         elif color == "red":
-            resister_value.append("2")
+            rvalue.append("2")
         elif color == "orange":
-            resister_value.append("3")
+            rvalue.append("3")
         elif color == "yellow":
-            resister_value.append("4")
+            rvalue.append("4")
         elif color == "green":
-            resister_value.append("5")
+            rvalue.append("5")
         elif color == "blue":
-            resister_value.append("6")
+            rvalue.append("6")
         elif color == "violet":
-            resister_value.append("7")
+            rvalue.append("7")
         elif color == "grey":
-            resister_value.append("8")
+            rvalue.append("8")
         elif color == "white":
-            resister_value.append("9")
+            rvalue.append("9")
         else:
-            resister_value.append("")
-    return "".join(resister_value)
-
-value("brown", "black")
+            rvalue.append("")  
+    return int("".join(rvalue))
